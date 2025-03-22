@@ -8,14 +8,15 @@ terraform {
     }
   }
 
-#   backend "s3" {
-#     region = "us-east-1"
-#     key    = "terraform/terraform.tfstate"
-#   }
-
-  backend "local" {
-    path   = "terraform.tfstate"
+  backend "s3" {
+    region = "us-east-1"
+    key    = "terraform/api-gateway.tfstate"
+    bucket = "tremligeiro-tf"
   }
+
+  # backend "local" {
+  #   path   = "terraform.tfstate"
+  # }
 }
 
 provider "aws" {
