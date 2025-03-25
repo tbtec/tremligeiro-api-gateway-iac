@@ -1,4 +1,4 @@
-# tremligeiro-api-gateway-iac
+# Trem Ligeiro API Gateway
 
 This applications is responsible for AWS API Gateway of the restaurant "Trem Ligeiro" from Company "Trem Bão Tecnologia".
 
