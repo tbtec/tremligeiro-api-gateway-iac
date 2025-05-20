@@ -8,7 +8,7 @@ This applications is responsible for AWS API Gateway of the restaurant "Trem Lig
 
 -   [Make](https://www.gnu.org/software/make/)
 -   [AWS CLI](https://aws.amazon.com/pt/cli/)
--   [Terraform 1.11.2](https://developer.hashicorp.com/terraform/install?product_intent=terraform)
+-   [Terraform 1.11.4](https://developer.hashicorp.com/terraform/install?product_intent=terraform)
 
 ### Building 
 
